@@ -10,11 +10,12 @@ function App() {
   }
   return (
     <div className="app">
-      <h1>i have just do some changes</h1>
-      <br />
-      <button onClick={decreaseCount}>-</button>
-      <p className="count">{count}</p>
-      <button onClick={increaseCount}>+</button>
+      <h1> counter</h1>
+      <div className="calculator">
+        <button onClick={decreaseCount}>-</button>
+        <p className="count">{count}</p>
+        <button onClick={increaseCount}>+</button>
+      </div>
     </div>
   );
 }
