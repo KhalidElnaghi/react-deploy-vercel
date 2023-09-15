@@ -10,6 +10,7 @@ function App() {
   }
   return (
     <div className="app">
+      <h1>i have just do some changes</h1>
       <button onClick={decreaseCount}>-</button>
       <p className="count">{count}</p>
       <button onClick={increaseCount}>+</button>
